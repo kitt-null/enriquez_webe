@@ -27,7 +27,7 @@
     <script>
         $('button').click(function(){
             $.ajax({
-                url:'process/process.php',
+                url:'router/router.php?ref=login',
                 data:$('#form').serialize(),
                 type:'POST',
                 beforeSend:function(){
